@@ -1,0 +1,1225 @@
+@import url(normalize.css);
+
+
+@font-face {
+    font-family: themefisher;
+    src: url(../fonts/themefisher-font.woff);
+}
+
+
+html,
+body {
+    height: 100%;
+    font-family: themefisher;
+    /*    background-image: url(../image/2index.jpg);*/
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 80%;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    max-width: 1920px;
+    min-width: 360px;
+    width: 80%;
+    margin: 0px auto;
+    /*    border-left: 1px solid brown;*/
+    /*    border-right: 1px solid brown;*/
+}
+
+.wrapper header {
+    overflow: hidden;
+}
+
+.base {
+    /* border: 1px solid red; */
+    /*    border-left: 1px solid red;*/
+    /*    border-right: 1px solid red;*/
+    width: 91%;
+    margin: 0px auto;
+}
+
+/* NAVIGATION  */
+.nav {
+    padding-right: 6%;
+    /*    border: 1px solid blue;*/
+    float: right;
+    text-transform: uppercase;
+    margin-top: 2%;
+}
+
+.nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    font-size: 1.1vw;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .7);
+    font-weight: bold;
+    margin: 0px;
+    margin-left: 18%;
+    transition: border .3s;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, .6);
+}
+
+/* OVERLAY  */
+
+.overlay {
+    padding-left: 5%;
+    float: left;
+    padding-top: 9px;
+}
+
+.overlay a {
+    text-decoration: none;
+    color: #555555;
+    font-size: 2.1vw;
+}
+
+/* TEHNOLOGY */
+.base section {
+    overflow: hidden;
+}
+
+.section-block {
+    width: 50%;
+    float: left;
+}
+
+.section-image {
+    width: 54%;
+    display: block;
+    margin: 0px auto;
+}
+
+.section-block h2 {
+    font-weight: bold;
+    font-size: 5.4vw;
+    margin: 0px;
+    margin-top: 30px;
+}
+
+.section-block .text {
+    font-weight: 300;
+    font-size: 1.5vw;
+    margin: 0px;
+    margin-left: 3%;
+}
+
+.butn a {
+    display: inline-block;
+    background: #ffb365;
+    background-image: linear-gradient(to bottom, #ffb365, #f8aa3d);
+    border-radius: 60px;
+    box-shadow: 0px 13px 14px #fce4c2;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 25px 85px;
+    border: solid #f2aa46 1px;
+    text-decoration: none;
+    color: white;
+    margin-top: 58px;
+    margin-left: 4%;
+}
+
+.butn:hover a {
+    background: #faaf52;
+    background-image: linear-gradient(to bottom, #faaf52, #ffb365);
+    text-decoration: none;
+}
+
+
+/* STATIC */
+
+.static {
+    width: 100%;
+    /*    border: 1px solid green;*/
+    margin-top: 75px;
+}
+
+.staticHeader h1 {
+    color: rgba(0, 0, 0, .9);
+    margin: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5vw;
+}
+
+.staticTableLeft {
+    float: left;
+    width: 23%;
+    /*    border: 1px solid pink;*/
+    margin-top: 100px;
+}
+
+.staticTableLeft .smalImage {
+    margin-top: 10px;
+}
+
+.staticTableLeft h2 {
+    font-weight: bold;
+    margin: 9px 0px;
+    font-size: 1.5vw;
+}
+
+.staticTableLeftText {
+    font-size: 1.2vw;
+    margin: 0px;
+    margin-bottom: 42px;
+}
+
+.staticTableRight {
+    float: right;
+    width: 32%;
+    /*    border: 1px solid pink;*/
+    margin-top: 100px;
+}
+
+.staticTableRight .smalImage {
+    margin-top: 10px;
+    margin-left: 3%;
+}
+
+.staticTableRight h2 {
+    font-weight: bold;
+    margin: 11px 0px;
+    margin-left: 2%;
+    font-size: 1.5vw;
+}
+
+.staticTableRightText {
+    font-size: 1.2vw;
+    margin-top: 0px;
+    margin-left: 3%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+}
+
+.centerImage img {
+    margin-left: 13%;
+    margin-top: 10%;
+    width: 27%;
+}
+
+/* DESIGNED SMART WATCH */
+
+.designedWatch {
+    display: inline-block;
+    background-color: rgba(240, 126, 12, .8);
+    margin: 0px;
+    margin-top: 135px;
+    padding: 125px 7%;
+}
+
+.designedLeft {
+    width: 50%;
+    float: left;
+}
+
+.designedLeft .watch {
+    width: 48%;
+    margin: 0px auto;
+    margin-left: 29%;
+    margin-bottom: 0px;
+    display: block;
+
+}
+
+.designedRight {
+    width: 50%;
+    float: left;
+
+}
+
+.designedRight h1 {
+    overflow: hidden;
+    margin: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 2.8vw;
+    margin-top: 117px;
+    margin-left: 3%;
+    margin-right: 10px;
+}
+
+.designedRight p {
+    color: rgb(255, 255, 255, .6);
+    font-size: 1.4vw;
+    margin-top: 35px;
+    margin-left: 3%;
+    margin-bottom: 0px;
+}
+
+/* YOU QUESTION */
+
+.base .question {
+    overflow: hidden;
+}
+
+.question {
+    margin-top: 103px;
+}
+
+.sectionHeader {
+    text-align: center;
+    font-size: 2.8vw;
+    margin: 0px;
+}
+
+
+/* -- TOP BLOCK -- */
+.topBlock {
+    margin-top: 115px;
+    display: inline-block;
+}
+
+.topLeftBlock {
+    width: 50%;
+    float: left;
+}
+
+.topLeftBlock .topLeftImage {
+    margin-left: 10%;
+    width: 77%;
+    margin-top: 10px;
+}
+
+.topRightBlock {
+    width: 50%;
+    float: left;
+}
+
+.topRightBlock h2 {
+    margin: 0px;
+    margin-top: 130px;
+    margin-left: 3%;
+    font-size: 2.1vw;
+}
+
+.topRightBlock p {
+    margin: 0px;
+    margin-top: 38px;
+    margin-left: 3%;
+    font-size: 1.4vw;
+}
+
+.topRightButn a {
+    display: inline-block;
+    background: #ffb365;
+    background-image: linear-gradient(to bottom, #ffb365, #f8aa3d);
+    border-radius: 60px;
+    box-shadow: 0px 13px 14px #fce4c2;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px 65px;
+    border: solid #f2aa46 1px;
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 3%;
+    text-transform: uppercase;
+}
+
+.topRightButn:hover a {
+    background: #faaf52;
+    background-image: linear-gradient(to bottom, #faaf52, #ffb365);
+    text-decoration: none;
+}
+
+
+/* -- BOTTOM BLOCK -- */
+
+.bottomBlock {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.bottomLeftInfo {
+    width: 50%;
+    float: left;
+    margin-top: 95px;
+}
+
+.bottomLeftInfo h2 {
+    font-size: 2.0vw;
+}
+
+.bottomLeftInfo p {
+    font-size: 1.4vw;
+    margin-top: 40px;
+}
+
+.bottomLeftButn a {
+    display: inline-block;
+    background: #ffb365;
+    background-image: linear-gradient(to bottom, #ffb365, #f8aa3d);
+    border-radius: 60px;
+    box-shadow: 0px 13px 14px #fce4c2;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px 65px;
+    border: solid #f2aa46 1px;
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.bottomLeftButn:hover a {
+    background: #faaf52;
+    background-image: linear-gradient(to bottom, #faaf52, #ffb365);
+    text-decoration: none;
+}
+
+.bottomRightBlock {
+    width: 50%;
+    float: left;
+}
+
+.bottomRightImage {
+    width: 78%;
+    margin-left: 10%;
+}
+
+
+/* CHECKOUT WATCH */
+
+.checkout {
+    margin-top: 120px;
+}
+
+.checkout h1 {
+    font-weight: bold;
+    font-size: 3.1vw;
+    text-align: center;
+}
+
+.checkoutWatch {
+    margin-top: 135px;
+}
+
+.checkoutWatch img {
+    width: 22%;
+    margin-left: 1.7%;
+
+}
+
+.bottomNo {
+    margin-left: none;
+}
+
+
+/* INFORMATION */
+
+.date {
+    background-color: black;
+    margin-top: 122px;
+    padding: 115px 0px;
+}
+
+.date h1 {
+    margin: 0px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.4vw;
+}
+
+.date p {
+    margin: 0px;
+    color: rgba(255, 255, 255, .7);
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2vw;
+}
+
+
+.dateInput {
+    margin-left: 29%;
+    width: 45%;
+}
+
+.inputGroup {
+    margin: 0px;
+    margin-top: 8%;
+}
+
+.inputGroup input {
+    width: 56%;
+    height: 55px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border: none;
+    padding-left: 15px;
+    display: table-cell;
+    outline: none;
+}
+
+.dateButn {
+    display: inline-block;
+    float: right;
+    margin-top: -65px;
+    margin-right: 20%;
+
+}
+
+.dateButn a {
+    display: inline-block;
+    background: #ffb365;
+    background-image: linear-gradient(to bottom, #ffb365, #f8aa3d);
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0 10px 40px rgba(249, 167, 68, .3);
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 16px 40px;
+    z-index: 1;
+    border: solid #f2aa46 1px;
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.dateButn:hover a {
+    background: #faaf52;
+    background-image: linear-gradient(to bottom, #faaf52, #ffb365);
+    text-decoration: none;
+}
+
+
+/* WATCH REVIEW */
+
+.review {
+    margin-top: 100px;
+}
+
+.review h1 {
+    margin-top: 10px;
+    font-size: 3.3vw;
+    text-align: center;
+}
+
+
+.overview {
+    margin-top: 100px;
+    padding: 0% 2%;
+    padding-top: 10px;
+}
+
+/* --OVERVIEW LEFT-- */
+.overview .left {
+    width: 30%;
+    float: left;
+}
+
+.left .quotes {
+    width: 13%;
+    margin-left: 41%;
+}
+
+.left p {
+    text-align: center;
+    font-size: 1.3vw;
+    color: rgba(0, 0, 0, .7);
+}
+
+
+.left .avatar {
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 38%;
+    margin-top: 50px;
+}
+
+.left h2 {
+    margin: 0px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.left span {
+    margin: 0px;
+    margin-left: 30%;
+    color: rgba(0, 0, 0, .6);
+}
+
+/* --OVERVIEW CENTER-- */
+
+.overview .center {
+    width: 30%;
+    float: left;
+    margin: 0px 5%;
+}
+
+.center .quotes {
+    width: 13%;
+    margin-left: 43%;
+}
+
+.center p {
+    text-align: center;
+    font-size: 1.3vw;
+    color: rgba(0, 0, 0, .7);
+}
+
+.center .avatar {
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 39%;
+    margin-top: 73px;
+}
+
+.center h2 {
+    margin: 0px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.center span {
+    margin: 0px;
+    margin-left: 30%;
+    color: rgba(0, 0, 0, .6);
+}
+
+/* --OVERVIEW RIGHT-- */
+
+.overview .right {
+    width: 30%;
+    float: left;
+}
+
+.right .quotes {
+    width: 13%;
+    margin-left: 45%;
+}
+
+.right p {
+    font-size: 1.3vw;
+    text-align: center;
+    color: rgba(0, 0, 0, .7);
+}
+
+.right .avatar {
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 43%;
+    margin-top: 50px;
+}
+
+.right h2 {
+    margin: 0px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.right span {
+    margin: 0px;
+    margin-left: 30%;
+    color: rgba(0, 0, 0, .6);
+}
+
+/* --BUTTON-- */
+
+.reviewButn a {
+    margin: 0px;
+    display: inline-block;
+    background: #ffb365;
+    background-image: linear-gradient(to bottom, #ffb365, #f8aa3d);
+    border-radius: 40px;
+    box-shadow: 0 10px 40px rgba(249, 167, 68, .3);
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 16px 40px;
+    z-index: 1;
+    border: solid #f2aa46 1px;
+    color: white;
+    margin: 145px 38%;
+}
+
+.reviewButn:hover a {
+    background: #faaf52;
+    background-image: linear-gradient(to bottom, #faaf52, #ffb365);
+    text-decoration: none;
+}
+
+
+/* BOTTOM CONTAINER */
+.bottomContainer {
+    background-color: rgba(220, 220, 220, .4);
+    padding: 63px 32%;
+    margin: 0px;
+}
+
+.bottomOverlay {
+    text-align: center;
+}
+
+.bottomOverlay a {
+    text-decoration: none;
+    color: rgba(85, 85, 85, .7);
+}
+
+.wrapper .bottomContainer {
+    overflow: hidden;
+}
+
+.bottomMenu {
+    float: left;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 18%;
+}
+
+.bottomMenu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bottomMenu ul li {
+    display: inline-block;
+}
+
+.bottomMenu ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .7);
+    font-weight: bold;
+    margin: 0px;
+    margin-left: 18%;
+    transition: border .3s;
+}
+
+.bottomMenu ul li a:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, .7);
+}
+
+.reference {
+    margin-top: 80px;
+    margin-left: 15%;
+}
+
+.reference span {
+    font-weight: 100;
+    font-size: 1.2vw;
+    color: rgba(0, 0, 0, .3);
+}
+
+.reference a {
+    font-weight: 100;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .5);
+    font-size: 1.2vw;
+}
+
+
+/*          Optim                  */
+
+@media screen and (max-width: 1920px) {
+
+    /* STATIC */
+    .staticTableLeft {
+        width: 27%;
+    }
+
+    .staticTableRight {
+        width: 33%;
+    }
+
+    .centerImage img {
+        margin-left: 6%;
+    }
+
+    .staticTableLeftText {
+        font-size: 1.4vw;
+    }
+
+    .staticTableRightText {
+        font-size: 1.4vw;
+    }
+
+    /* DATE */
+    .dateButn {
+        margin-right: 24%;
+    }
+
+    .dateButn a {
+        padding: 17px 40px;
+        margin-top: 8px;
+    }
+
+    .inputGroup input {
+       padding-top: 2px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .section-block h2 {
+        font-weight: bold;
+        font-size: 4.3vw;
+        margin: 0px;
+        margin: 30px 0px;
+    }
+
+    .section-block .text {
+        font-weight: 300;
+        font-size: 1.6vw;
+        margin-left: 3%;
+    }
+
+    .butn a {
+        margin-top: 10px;
+        padding: 20px 80px;
+    }
+    
+    .inputGroup {
+    margin: 2px;
+    margin-top: 8%;
+}
+
+    /* STATIC */
+    .staticTableLeftText {
+        font-size: 1.4vw;
+    }
+
+    .staticTableRightText {
+        font-size: 1.4vw;
+    }
+
+    /* QUESTION */
+    .topRightButn a {
+        font-size: 13px;
+        padding: 15px 40px;
+    }
+
+    .bottomLeftButn a {
+        font-size: 13px;
+        padding: 15px 40px;
+        margin-bottom: 10px;
+    }
+
+    .topRightBlock h2 {
+        margin-top: 65px;
+    }
+
+    .bottomRightImage {
+        width: 75%;
+        margin-top: 35px;
+    }
+
+    /* CHECKUOT */
+    .checkoutWatch {
+        margin-top: 60px;
+    }
+
+    .checkoutWatch img {
+        width: 21%;
+    }
+
+    /* DATE */
+    .date p {
+        font-size: 1.4vw;
+    }
+
+    .inputGroup input {
+        
+               padding-left: 22px;
+    height: 43px;
+    }
+
+    .dateButn {
+        margin-top: -55px;
+        margin-right: 16%;
+    }
+
+.dateButn a {
+padding: 11px 11px;
+}
+
+    /* REVIEW */
+    .left span {
+        margin-left: 20%;
+    }
+
+    .center .avatar {
+        margin-top: 62px;
+    }
+
+    .center span {
+        margin-left: 20%;
+    }
+
+    .right .avatar {
+        margin-top: 46px;
+    }
+
+    .right span {
+        margin-left: 20%;
+    }
+
+    .reviewButn a {
+        margin-top: 100px;
+        font-size: 15px;
+        padding: 13px 16px;
+        margin: 84px 36%;
+    }
+
+    /* BOTTOM CONTAINER */
+    .bottomContainer {
+        padding: 63px 27%;
+    }
+
+    .bottomMenu {
+        margin-left: 14%;
+    }
+
+    .reference {
+        margin-left: 22%;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    .section-block .text {
+        font-size: 1.9vw;
+    }
+
+    .butn a {
+        font-size: 16px;
+        padding: 12px 31px;
+        margin-top: 36px;
+    }
+
+    /*   Первый блок   */
+
+    .staticTableLeftText {
+        font-size: 1.8vw;
+
+    }
+
+    .staticTableRightText {
+        font-size: 1.8vw;
+
+    }
+    
+/*      Второй блок     */
+    .designedRight p
+    {
+        font-size: 1.8vw;
+    }
+    
+/*    Третий блок    */
+    
+    .inputGroup input {
+    padding-left: 4px;
+    font-size: 1.8vw;
+    height: 43px;
+}
+    
+    .question {
+    margin-top: 55px;
+}
+    .topBlock {
+    margin-top: 70px;
+}
+    .topRightBlock p {
+    font-size: 1.9vw;
+}
+
+.topRightBlock h2 {
+    font-size: 2.2vw;
+}
+    .bottomLeftInfo h2 {
+    font-size: 1.9vw;
+}
+    .bottomLeftInfo p {
+    font-size: 1.8vw;
+    margin-top: 30px;
+}
+    .bottomRightImage {
+    margin-top: 20%;
+
+}
+    
+.date p {
+    font-size: 1.6vw;
+}
+    
+    .left p
+    {
+       font-size: 1.6vw;
+    }
+    
+    .center p 
+    {
+    font-size: 1.6vw;
+    }
+    .right p
+    {
+        font-size: 1.6vw;
+    }
+    
+  .reviewButn a {
+font-size: 17px;
+    padding: 3% 6%;
+      margin: 7% 1%; 
+}
+    
+}
+
+@media screen and (max-width: 580px) {
+    .butn a {
+        font-size: 15px;
+        padding: 7px 19px;
+        margin-top: 13px;
+        margin-left: 4%;
+    }
+
+    .section-block .text {
+        font-size: 1.9vw;
+        margin-top: 5%;
+    }
+
+    .staticTableRightText {
+        font-size: 1.9vw;
+    }
+
+    .staticTableLeftText {
+        font-size: 1.8vw;
+
+    }
+
+    .designedWatch {
+        padding: 125px 7%;
+    }
+
+    .designedRight h1 {
+        font-size: 2.8vw;
+        margin-top: 10px;
+        margin-left: 3%;
+        margin-right: 10px;
+    }
+
+    .designedRight p {
+        color: rgb(255, 255, 255, .6);
+        font-size: 1.9vw;
+        margin-top: 35px;
+        margin-left: 3%;
+        margin-bottom: 0px;
+    }
+
+    .question {
+        margin-top: 20px;
+    }
+
+    .topRightButn a {
+
+        font-size: 13px;
+        padding: 10px 33px;
+        margin-top: 30px;
+        margin-left: 3%;
+    }
+
+    .topRightBlock h2 {
+        margin: 0px;
+        margin-top: 25px;
+        margin-left: 3%;
+        font-size: 2.1vw;
+    }
+
+    .topRightBlock p {
+        margin-top: 27px;
+        font-size: 1.9vw;
+    }
+
+    .bottomRightImage {
+        margin-top: 30%;
+    }
+
+    .bottomLeftButn a {
+        font-size: 14px;
+        padding: 10px 33px;
+    }
+
+    .bottomLeftInfo p {
+        font-size: 1.9vw;
+        margin-top: 27px;
+    }
+
+    .checkoutWatch {
+        margin-top: 70px;
+    }
+
+    .checkout {
+        margin-top: 80px;
+    }
+
+    .checkoutWatch img {
+        width: 20%;
+        margin-left: 1.7%;
+    }
+
+
+    .date {
+        background-color: black;
+        margin-top: 90px;
+        padding: 115px 0px;
+    }
+
+    .date p {
+        margin: 0px;
+        color: rgba(255, 255, 255, .7);
+        font-weight: 100;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 2.4vw;
+    }
+    
+.inputGroup input {
+    height: 34px;
+    width: 50%;
+    font-size: 1.9vw;
+        padding-left: 27px;
+}
+    .dateButn a {
+
+        font-size: 12px;
+            padding: 10px 5px;
+    margin-top: 17px;
+    }
+
+    .review {
+        margin-top: 70px;
+    }
+
+    .overview {
+        margin-top: 55px;
+        padding: 0% 2%;
+        padding-top: 10px;
+    }
+
+    .left p {
+        text-align: center;
+        font-size: 1.8vw;
+        color: rgba(0, 0, 0, .7);
+    }
+
+    .center p {
+        text-align: center;
+        font-size: 1.8vw;
+        color: rgba(0, 0, 0, .7);
+    }
+
+    .center span {
+        font-size: 1.9vw;
+    }
+
+    .left span {
+        font-size: 1.9vw;
+    }
+
+    .right span {
+        font-size: 1.9vw;
+    }
+
+    .right p {
+        font-size: 1.8vw;
+        text-align: center;
+        color: rgba(0, 0, 0, .7);
+    }
+
+    h2 {
+        font-size: 1.1em;
+        margin: 0.83em 0;
+    }
+
+    .right .avatar {
+        width: 30%;
+        border-radius: 50%;
+        margin-left: 35%;
+        margin-top: 30px;
+    }
+
+    .center .avatar {
+        width: 30%;
+        border-radius: 50%;
+        margin-left: 39%;
+        margin-top: 40px;
+    }
+
+    .left .avatar {
+        width: 31%;
+        border-radius: 50%;
+        margin-left: 38%;
+        margin-top: 40px;
+    }
+
+    .reviewButn a {
+        font-size: 14px;
+        padding: 10px 33px;
+           margin: 8% 0%;
+    }
+
+    .bottomContainer {
+        background-color: rgba(220, 220, 220, .4);
+        padding: 40px 5%;
+        margin: 0px;
+    }
+
+    .reference {
+        margin-top: 80px;
+        margin-left: 30%;
+    }
+
+    .reference span {
+        font-weight: 100;
+        font-size: 1.8vw;
+        color: rgba(0, 0, 0, .3);
+    }
+
+    .reference a {
+        font-weight: 100;
+        text-decoration: none;
+        color: rgba(0, 0, 0, .5);
+        font-size: 1.8vw;
+    }
+
+}
+
+
+
+
+
+
+
+
+/*          Optim             */
